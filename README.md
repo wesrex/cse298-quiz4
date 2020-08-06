@@ -7,6 +7,7 @@ Make at least 1 commit per question.
 ## Question 1
 
 What is the difference between Dijkstra's Algorithm and A*. Why would one use Dijkstra's over A* and vice versa?
+-Dijktras is good for simpler problems, if you need to simply choose the fastest route with no other factors to consider other than time taken on the road, dijkstras is the better choice.  A* on the other hand is heuristic meaning that it takes into account rules you set in place, like preferring to pick routes that are on the way to the destination first. ie. if you are mapping out a route to your office with dijkstras and there is normally a faster route (A) but because there is traffic today each of the roads along (A) increase their cost and thus could send you on a different route (B) with no traffic but takes you away from your office at first increasing time, A* would know you want to always head in the general direction of your office and pick route A (As long as traffic doesn't make the cost exuberantly High).
 
 ## Question 2
 
